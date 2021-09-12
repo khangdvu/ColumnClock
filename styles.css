@@ -11,30 +11,30 @@ body{
 .clockColumn{
     --position: 0;
     margin: 5px;
-    transform: translateY(calc(var(--position) * -100px));
+    transform: translateY(calc(var(--position) * -5vw));
     transition: transform 0.8s;
 
 }
 
 .clockColumn.once{
-    margin-right: 75px;
+    margin-right: 2vw;
 }
 
 .clockSquare{
     position: relative;
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 5vw;
+    height: 5vw;
     margin: 0;
     background-color: 	#3D5A80;
-    top: 30%;
+    top: 40%;
     text-align: center;
     justify-content: center;
     box-shadow: 5px 5px #99B2DD;
 } 
 .clockSquare span{
     font-family: 'Orbitron', sans-serif;
-    font-size: 2rem;
+    font-size: 2vw;
     color:  #E0FBFC;
     position: absolute;
     top: 35%;
